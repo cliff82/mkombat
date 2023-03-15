@@ -1,0 +1,79 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@media  screen and (max-width: 770px) {
+  .bottomRow {
+   display: grid;
+   grid-template-columns: repeat(2, minmax(0, 1fr));
+   
+   text-align: center;
+
+}
+
+.layout {
+  color: #f59e0b;
+}
+
+}
+
+@media  screen and (max-width: 500px) {
+  .layout{
+   display: grid;
+   grid-template-columns: repeat(1, minmax(0, 1fr));
+   padding-left: 10%;
+   text-align: center;
+   color: rgb(180 83 9);
+}
+
+
+
+
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  background-image: url(/public/pics/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ background-color: rgb(30 58 138);
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+
+h1 {
+  color: rgb(234 179 8);
+  font-size: 190%;
+}
+
+h1 strong {
+  color: rgb(153 27 27);
+  font-size: 110%;
+  
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  padding-bottom: 10%;
+  
+}
+
+li:hover {
+  color: rgb(74 222 128);
+font-size: 200%;
+}
